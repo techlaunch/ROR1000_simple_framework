@@ -30,4 +30,9 @@ class Database
 
         return $results;
     }
+
+    public function disconnect() {
+        // close the connection to the database
+        $this->db->close();
+    }
 }

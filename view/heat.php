@@ -15,6 +15,9 @@
     <?php } ?>
 </table>
 
-<p><a class="btn btn-primary" href="index.php?page=heat&action=add">Add Player</a></p>
+<p>
+    <a class="btn btn-primary" href="index.php?page=heat&action=add">Add Player</a>
+    <a class="btn btn-primary" href="index.php?page=heat&action=report">Report</a>
+</p>
 
 <?php include "partials/footer.php"; ?>
